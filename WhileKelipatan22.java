@@ -9,9 +9,11 @@ public class WhileKelipatan22 {
 
         int i=1;
         while (i<=50) {
-            jumlah += i;
-            counter ++;
-        }i++;
+            if (i % kelipatan == 0) {
+                jumlah += i;
+                counter ++;
+            }i++;
+        }
     
             rata_rata = jumlah / counter;
             System.out.printf("Banyaknya bilangan %d dari 1 sampai 50 adalah %d\n", kelipatan, counter);
