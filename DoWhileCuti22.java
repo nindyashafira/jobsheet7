@@ -9,7 +9,7 @@ public class DoWhileCuti22{
         jatahCuti = scan.nextInt();
 
         do{
-            System.out.print("Apakah anda ingin mengambil cuti (y/t)? ");
+            System.out.print("Apakah Anda ingin mengambil cuti (y/t)? ");
             konfirmasi = scan.next();
 
             if (konfirmasi.equalsIgnoreCase("y")) {
@@ -21,6 +21,9 @@ public class DoWhileCuti22{
                     System.out.println("Sisa jatah cuti: " + jatahCuti);
                 }else {
                     System.out.println("Sisa jatah cuti Anda tidak mencukupi");
+                    System.out.print("Masukkan ulang jumlah hari cuti: ");
+                    jumlahHari = scan.nextInt();
+                    System.out.println("Sisa jatah cuti habis");
                     break;
                 }
             }
