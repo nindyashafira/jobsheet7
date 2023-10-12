@@ -22,7 +22,7 @@ public class WhileGaji22 {
             if (jabatan.equalsIgnoreCase("direktur")) {
                 continue;
             }else if (jabatan.equalsIgnoreCase("manajer")) {
-                gajiLembur = jumlahJamLembur *
+                gajiLembur = jumlahJamLembur;
             }
         }
     }
